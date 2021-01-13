@@ -1,0 +1,18 @@
+
+
+h1 {
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'poppins', sans-serif;
+    text-align: justify;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.img-container { 
+    text-align: center;
+}
+
