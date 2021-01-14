@@ -1,18 +1,43 @@
 
 
+body {
+    background-color: #F7F9FB;
+}
+
 h1 {
     font-family: 'poppins', sans-serif;
+    color: #38473e;
     text-align: center;
+    padding-top: 1.5%;
 }
 
 p {
     font-family: 'poppins', sans-serif;
-    text-align: justify;
-    margin-left: 150px;
-    margin-right: 150px;
+    color: #39413c;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 1% 2% 2% 2%;
+}
+
+a {
+    color: #39413c;
+}
+
+.white-link {
+    color: #F7F9FB;
 }
 
 .img-container { 
     text-align: center;
 }
 
+#navbar {
+    position: fixed;
+    font-family: 'poppins', sans-serif;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #5085A5;
+    line-height: 10%;
+}
