@@ -1,4 +1,5 @@
 
+/*--------------------rules--------------------*/
 
 body {
     background-color: #F7F9FB;
@@ -11,8 +12,16 @@ h1 {
     padding-top: 1.5%;
 }
 
+h3 {
+    font-family: 'poppins', sans-serif;
+    color: #38473e;
+    text-align: left;
+    margin-left: 12%;
+}
+
 p {
     font-family: 'poppins', sans-serif;
+    font-size: 16px;
     color: #39413c;
     text-align: left;
     margin-left: 10%;
@@ -24,20 +33,127 @@ a {
     color: #39413c;
 }
 
-.white-link {
-    color: #F7F9FB;
+img {
+    width: 80%;
 }
 
-.img-container { 
+
+/*--------------------classes--------------------*/
+
+.center {
     text-align: center;
+    object-fit: cover;
 }
+
+.div1 {
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    color: #39413c;
+    text-align: center;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.kelp-img {
+    margin-right: 13%;
+    float: right;
+}
+
+
+.p-heading {
+    margin-top: -1.9%
+}
+
+.white-link {
+    color: #F7F9FB;
+    font-size: 16px;
+}
+
+.widthSet {
+    max-width: 64px;
+}
+
+
+/*--------------------media qeuries--------------------*/
+
+@media screen and (min-width: 900px) {
+    .fig-margin {
+        margin-left: 25.5%;
+        margin-right: 25.5%; 
+    }
+  }     
+
+@media screen and (max-width: 900px) {
+    .fig-font {
+        font-size: 16px;
+    }
+  }     
+
+@media screen and (min-width: 900px) {
+    .img-size {
+        width: 50%;
+    }
+  }
+
+@media screen and (max-width: 900px) {
+    .kelp-width {
+        width: 75%;
+    }
+  } 
+
+@media screen and (min-width: 901px) {
+    .kelp-widthfs {
+        width: 30%;
+        margin-right: 25%;
+    }
+  }     
+
+@media screen and (max-width: 900px) {
+    h3 {
+        margin-top: 10%;
+        
+    }
+  }     
+ 
+@media screen and (min-width: 900px) {
+    h3 {
+        margin-left: 25.5%;
+        margin-right: 25.5%;
+        }
+    }  
+
+  @media screen and (min-width: 900px) {
+    p {
+        margin-left: 23.5%;
+        margin-right: 23.5%; 
+    }
+  }     
+
+
+  @media screen and (max-width: 900px) {
+    .phone-pad {
+        padding-bottom: 10%;
+    }
+  }   
+
+@media screen and (max-width: 480px) {
+    .phone-heading {
+        margin-top: -6%
+    }
+  }     
+  
+
+
+/*--------------------ID's--------------------*/
 
 #navbar {
     position: fixed;
     font-family: 'poppins', sans-serif;
+    font-size: 16px;
     top: 0px;
     left: 0px;
     width: 100%;
     background-color: #5085A5;
     line-height: 10%;
 }
+
