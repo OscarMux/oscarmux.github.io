@@ -26,6 +26,8 @@
         font-size: 20px;
     }
 
+    
+    /*--------------------Classes--------------------*/
     .img-divbanner {
         grid-row: 1 / 3;
         grid-column: 2 / 4;
@@ -50,7 +52,6 @@
         float: right;
     }
 
-    /*--------------------Classes--------------------*/
     .para-heading {
         margin-top: -4%;
     }
@@ -65,13 +66,12 @@
     }
 
     .blogbox {
-        width: 17vw;
-        height: 50vh;
+        width: 300px;
+        height: 410px;
         border-radius: 20px 20px 20px 20px;
         background-color: #f7faf7;
         box-shadow: 0px 6px 15px 0px rgba(50, 50, 50, 0.1);
-        margin-top: -1%;
-        
+        margin-top: -1%; 
     }
 
     .bpost-title {
@@ -81,10 +81,11 @@
     }
 
     .bbtitle {
-        font-size: 20px;
+        font-size: 17px;
         margin-top: -5%;
         padding-left: 3%;
         padding-right: 3%;
+
     }
 
     .bbtext {
@@ -92,6 +93,7 @@
         padding-left: 3%;
         padding-right: 3%;
         margin-top: -13%;
+
     }
     
     #bbleft {
@@ -109,7 +111,10 @@
         height: 160px;
         object-fit: cover;
         border-radius: 20px 20px 0px 0px;
+    }
 
+    .topdiv-move {
+        margin-top: 5%;
     }
 
 
