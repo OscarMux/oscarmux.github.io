@@ -29,6 +29,13 @@
         padding-right: 4%;
     }
 
+    .img-work {
+        width: 30%;
+        padding-left: 4%;
+        margin-top: 5%;
+        float: right;
+    }
+
     /*--------------------Classes--------------------*/
     .para-heading {
         margin-top: -4%;
@@ -97,7 +104,7 @@
         margin-right: 0%;
         background: #f7faf7;
         display: grid;
-        grid-template-columns: 19vw 60vw 19vw;
+        grid-template-columns: 19vw 60vw 20vw;
         grid-template-rows: 8vh 80vh 60vh 60vh 40vh;
         grid-template-areas: 
         ". header ."
