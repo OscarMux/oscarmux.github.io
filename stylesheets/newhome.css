@@ -1,4 +1,17 @@
 
+    a {
+        font-family: 'poppins', 'Arial';
+        font-size: 17px;
+        background: rgb(180, 231, 183);
+        display: block;
+        width: 90%;
+        border-radius: 15px;
+        padding: 5px 0px;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        margin: -4% 0% 0% 6%;
+    }
 
     body {
         font-family: 'poppins';
@@ -7,6 +20,7 @@
         margin: 0%;
         margin-right: 0%;
     }
+
 
     p {
         font-size: 20px;
@@ -39,9 +53,64 @@
     /*--------------------Classes--------------------*/
     .para-heading {
         margin-top: -4%;
-}
+    }
+
+    .para-heading1 {
+        margin-top: -2%;
+    }
 
 
+    .readmore-lesstext {
+        margin-top: 10%;
+    }
+
+    .blogbox {
+        width: 17vw;
+        height: 50vh;
+        border-radius: 20px 20px 20px 20px;
+        background-color: #f7faf7;
+        box-shadow: 0px 6px 15px 0px rgba(50, 50, 50, 0.1);
+        margin-top: -1%;
+        
+    }
+
+    .bpost-title {
+        text-align: center;
+        margin-right: 6%;
+        margin-top: -2%;
+    }
+
+    .bbtitle {
+        font-size: 20px;
+        margin-top: -5%;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+
+    .bbtext {
+        font-size: 16px;
+        padding-left: 3%;
+        padding-right: 3%;
+        margin-top: -13%;
+    }
+    
+    #bbleft {
+        float: left;
+        margin-left: 5%;
+    }
+
+    #bbright {
+        float: right;
+        margin-right: 10%;
+    }
+
+    .img-blogbox {
+        width: 100%;
+        height: 160px;
+        object-fit: cover;
+        border-radius: 20px 20px 0px 0px;
+
+    }
 
 
 /*--------------------Grid Stuff--------------------*/
@@ -105,7 +174,7 @@
         background: #f7faf7;
         display: grid;
         grid-template-columns: 19vw 60vw 20vw;
-        grid-template-rows: 8vh 80vh 60vh 60vh 40vh;
+        grid-template-rows: 8vh 80vh 60vh 60vh 70vh;
         grid-template-areas: 
         ". header ."
         ". content1 content1"
