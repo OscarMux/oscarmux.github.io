@@ -16,7 +16,7 @@
     body {
         font-family: 'poppins';
         color: #39413c;
-        background: #f7faf7;
+        background: #F7F9FB;
         margin: 0%;
         margin-right: 0%;
     }
@@ -43,6 +43,7 @@
     .img-profile {
         width: 30%;
         padding-right: 4%;
+        margin-top: 5%;
     }
 
     .img-work {
@@ -69,7 +70,7 @@
         width: 300px;
         height: 410px;
         border-radius: 20px 20px 20px 20px;
-        background-color: #f7faf7;
+        background-color: #F7F9FB;
         box-shadow: 0px 6px 15px 0px rgba(50, 50, 50, 0.1);
         margin-top: -1%; 
     }
@@ -121,53 +122,53 @@
 /*--------------------Grid Stuff--------------------*/
 
     .d1 {
-        background:#f7faf7;
+        background:#F7F9FB;
         grid-area: header;
     }
     .d2 {
-        background:#f7faf7;
+        background:#F7F9FB;
     }
     .d3 {
         background: transparent;
     }
 
     .d4 {
-        background:#f7faf7;    
+        background:#F7F9FB;    
     }
     .d5 {
-        background:#f7faf7;
+        background:#F7F9FB;
         grid-area: content1;
     }
     .d6 {
-        background:#f7faf7;
+        background:#F7F9FB;
     }
     .d7 {
-        background:#f7faf7;
+        background:#F7F9FB;
     }
     .d8 {
-        background:#f7faf7;
+        background:#F7F9FB;
         grid-area: content2;
     }
     .d9 {
-        background:#f7faf7;
+        background:#F7F9FB;
     }
     .d10 {
-        background:#f7faf7;
+        background:#F7F9FB;
     }
     .d11 {
-        background:#f7faf7;
+        background:#F7F9FB;
     }
     .d12 {
-        background:#f7faf7;
+        background:#F7F9FB;
     } 
     .d13 {
-        background:#f7faf7;
+        background:#F7F9FB;
     }
     .d14 {
-        background:#f7faf7;
+        background:#F7F9FB;
     }
     .d15 {
-        background:#f7faf7;
+        background:#F7F9FB;
     }
 
 
@@ -176,7 +177,7 @@
         font-size: 40px;
         width: 100%;
         margin-right: 0%;
-        background: #f7faf7;
+        background: #F7F9FB;
         display: grid;
         grid-template-columns: 19vw 60vw 20vw;
         grid-template-rows: 8vh 80vh 60vh 60vh 70vh;
