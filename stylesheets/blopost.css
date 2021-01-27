@@ -3,16 +3,21 @@
 html { font-size: 22px; 
     font-family: 'poppins';
 }
-body { padding: 1rem; }
+body { 
+    padding: 1rem;
+    margin-top: 1%;
+
+}
 
 .card {
      height: 24rem;
+    margin-top: 10%;
 }
 
 .cards {
   max-width: 1200px;
   margin: 0 auto;
-  margin-top: 2%;
+  margin-top: 30px;
   display: grid;
   grid-gap: 1rem;
 }
@@ -138,7 +143,7 @@ body { padding: 1rem; }
     padding-right: 1%;
     font-size: 25px;
     color: white;
-    text-decoration: none;
+    
 }
 
 #navbar {
