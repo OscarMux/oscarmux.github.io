@@ -34,7 +34,7 @@ p {
 
 a {
     color: #39413c;
-    padding-right: 2%;
+    
 }
 
 img {
@@ -97,7 +97,9 @@ li {
 
 .white-link {
     color: #F7F9FB;
-    font-size: 16px;
+    font-size: 22px;
+    padding-right: 1%;
+    text-decoration: none;
 }
 
 .widthSet {
@@ -199,7 +201,7 @@ li {
 #navbar {
     position: fixed;
     font-family: 'poppins', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     top: 0px;
     left: 0px;
     width: 100%;

@@ -1,0 +1,60 @@
+
+
+html {
+    font-family: 'poppins';
+}
+
+
+p {
+    line-height: 25px;
+}
+
+li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-text {
+    padding-right: 1%;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+#navbar {
+    position: fixed;
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #8bc6ca;
+    line-height: 10%;
+}
+
+.center {
+    margin: auto;
+    margin-top: 3%;
+}
+
+.centertext {
+    margin: 7% 20% 0% 20%;
+}
+
+@media (max-width: 480px) {
+    .centertext {
+        margin: 15% 5% 0% 5% ;
+    }
+}
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:'poppins', sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:'poppins', sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-2bn0{font-size:16px;text-align:center;vertical-align:top}
+.tg .tg-auka{font-size:16px;text-align:left;vertical-align:top}
+.tg .tg-7jdu{background-color:#b7d1a0;font-size:18px;text-align:center;vertical-align:top}
+.tg .tg-zbgw{background-color:#b7d1a0;font-size:18px;text-align:left;vertical-align:top}
+
+
+

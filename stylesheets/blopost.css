@@ -135,17 +135,19 @@ body { padding: 1rem; }
     }
 
 .navbar-text {
-    padding-right: 2%;
+    padding-right: 1%;
+    font-size: 25px;
     color: white;
+    text-decoration: none;
 }
 
 #navbar {
     position: fixed;
     font-family: 'poppins', sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     top: 0px;
     left: 0px;
     width: 100%;
-    background-color: #a0ced1;
+    background-color: #8bc6ca;
     line-height: 10%;
 }
