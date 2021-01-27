@@ -12,6 +12,7 @@ body { padding: 1rem; }
 .cards {
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: 2%;
   display: grid;
   grid-gap: 1rem;
 }
@@ -122,7 +123,7 @@ body { padding: 1rem; }
 .blogbutton {
     font-family: 'poppins', 'Arial';
     font-size: 17px;
-    background: rgb(180, 231, 183);
+    background: rgb(160, 209, 163);
     display: block;
     width: 90%;
     border-radius: 15px;
@@ -133,3 +134,18 @@ body { padding: 1rem; }
     margin: auto;
     }
 
+.navbar-text {
+    padding-right: 2%;
+    color: white;
+}
+
+#navbar {
+    position: fixed;
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #a0ced1;
+    line-height: 10%;
+}
