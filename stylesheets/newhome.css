@@ -48,7 +48,7 @@
     .img-profile {
         width: 30%;
         padding-right: 4%;
-        margin-top: 5%;
+        margin-top: 7%;
         float: left;
     }
 
@@ -196,7 +196,24 @@
         }
     }
 
-   
+    @media (max-width: 1645px) {
+        .img-profile {
+            margin-top: 15%;
+        }
+        .img-work {
+            margin-top: 15%;
+        }
+        @media (max-width: 1350px) {
+            .img-profile {
+                margin-top: 17%;
+                width: 45%;
+            }
+            .img-work {
+                margin-top: 17%;
+                width: 45%;
+            }
+        }
+   }
     
 
     @media screen and (max-width: 840px) {
