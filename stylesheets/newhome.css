@@ -22,6 +22,10 @@
 
     /*--------------------Classes--------------------*/
 
+    .linktext {
+        color: #39413c;
+    }
+    
     .move {
         margin-top: 10%;
     }
@@ -262,7 +266,7 @@
             width: 75%;
         
         }
-
+  
         @media (max-height: 420px) {
             .img-profile {
                 display: none;
