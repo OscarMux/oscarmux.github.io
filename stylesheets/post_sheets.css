@@ -23,7 +23,7 @@ h3 {
 
 p {
     font-family: 'poppins', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     color: #39413c;
     text-align: left;
     margin-left: 10%;
@@ -86,10 +86,14 @@ li {
 
 .kelp-img {
     margin-right: 13%;
+    margin-top: 8px;
     float: right;
     padding-left: 0.5%
 }
 
+.para-img-margin {
+    margin-top: -5%;
+}
 
 .p-heading {
     margin-top: -1.9%
@@ -106,61 +110,71 @@ li {
     max-width: 64px;
 }
 
+.yew_tree {
+      padding-bottom: 4%;
+      margin-top: 2%;
+    }
+
 
 /*--------------------media qeuries--------------------*/
 
 @media screen and (max-width: 900px) {
     .arbuscule-size {
         width: 80%;
-    }
-  }   
+    }  
 
-@media screen and (max-width: 900px) {
     .hartig-size {
         width: 80%;
     }
-  }   
+   
+    .fig-font {
+        font-size: 16px;
+    }
+     
+    .kelp-width {
+        width: 75%;
+    }
+  
+    h3 {
+        margin-top: 10%;
+        margin-right: 10%;    
+    }
+     
+    .phone-pad {
+        padding-bottom: 10%;
+    }
+    
+    li {
+        margin-left: 12%;
+        margin-right: 12%; 
+    }
+    
+    .yew_tree {
+        margin-top: -2%;
+    }
+
+  } 
 
 @media screen and (min-width: 900px) {
     .fig-margin {
         margin-left: 25.5%;
         margin-right: 25.5%; 
     }
-  }     
-
-@media screen and (max-width: 900px) {
-    .fig-font {
-        font-size: 16px;
-    }
-  }     
+  }      
 
 @media screen and (min-width: 900px) {
     .img-size {
         width: 50%;
     }
-  }
-
-@media screen and (max-width: 900px) {
-    .kelp-width {
-        width: 75%;
-    }
-  } 
+  }  
 
 @media screen and (min-width: 901px) {
     .kelp-widthfs {
         width: 30%;
         margin-right: 25%;
     }
-  }     
+  }        
 
-@media screen and (max-width: 900px) {
-    h3 {
-        margin-top: 10%;
-        margin-right: 10%;
-        
-    }
-  }     
- 
 @media screen and (min-width: 900px) {
     h3 {
         margin-left: 25.5%;
@@ -168,33 +182,18 @@ li {
         }
     }  
 
-  @media screen and (min-width: 900px) {
+@media screen and (min-width: 900px) {
     p {
         margin-left: 23.5%;
         margin-right: 23.5%; 
     }
-  }     
-
-
-  @media screen and (max-width: 900px) {
-    .phone-pad {
-        padding-bottom: 10%;
-    }
-  }   
+}     
 
 @media screen and (max-width: 480px) {
     .phone-heading {
         margin-top: -6%
     }
-  }     
-  
-  @media screen and (max-width: 900px) {
-    li {
-        margin-left: 12%;
-        margin-right: 12%; 
-    }
-  }     
-
+}    
 
 /*--------------------ID's--------------------*/
 
